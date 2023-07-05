@@ -47,6 +47,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		267D83882A558C730045D105 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26F606022A54715E003F4DD0 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		267D83892A558C790045D105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26F605EB2A546A62003F4DD0 /* Main.storyboard */,
+				26F605F02A546A63003F4DD0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		267D838A2A558C7D0045D105 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26F605E92A546A62003F4DD0 /* ViewController.swift */,
+				26F606042A547623003F4DD0 /* PlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		267D838B2A558C850045D105 /* Audi */ = {
+			isa = PBXGroup;
+			children = (
+				26F605FC2A546FF7003F4DD0 /* song1.mp3 */,
+				26F605FA2A546FF7003F4DD0 /* song2.mp3 */,
+				26F606002A54701F003F4DD0 /* song3.mp3 */,
+			);
+			path = Audi;
+			sourceTree = "<group>";
+		};
 		26F605D92A546A62003F4DD0 = {
 			isa = PBXGroup;
 			children = (
@@ -66,17 +102,13 @@
 		26F605E42A546A62003F4DD0 /* MuzikDinle */ = {
 			isa = PBXGroup;
 			children = (
-				26F605FC2A546FF7003F4DD0 /* song1.mp3 */,
-				26F605FA2A546FF7003F4DD0 /* song2.mp3 */,
-				26F606002A54701F003F4DD0 /* song3.mp3 */,
+				267D838B2A558C850045D105 /* Audi */,
+				267D838A2A558C7D0045D105 /* Controller */,
+				267D83892A558C790045D105 /* View */,
+				267D83882A558C730045D105 /* Model */,
 				26F605E52A546A62003F4DD0 /* AppDelegate.swift */,
 				26F605E72A546A62003F4DD0 /* SceneDelegate.swift */,
-				26F605E92A546A62003F4DD0 /* ViewController.swift */,
-				26F606042A547623003F4DD0 /* PlayerViewController.swift */,
-				26F606022A54715E003F4DD0 /* Song.swift */,
-				26F605EB2A546A62003F4DD0 /* Main.storyboard */,
 				26F605EE2A546A63003F4DD0 /* Assets.xcassets */,
-				26F605F02A546A63003F4DD0 /* LaunchScreen.storyboard */,
 				26F605F32A546A63003F4DD0 /* Info.plist */,
 			);
 			path = MuzikDinle;
