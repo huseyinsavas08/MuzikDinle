@@ -13,6 +13,11 @@
 		26F605ED2A546A62003F4DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F605EB2A546A62003F4DD0 /* Main.storyboard */; };
 		26F605EF2A546A63003F4DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F605EE2A546A63003F4DD0 /* Assets.xcassets */; };
 		26F605F22A546A63003F4DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F605F02A546A63003F4DD0 /* LaunchScreen.storyboard */; };
+		26F605FD2A546FF7003F4DD0 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26F605FA2A546FF7003F4DD0 /* song2.mp3 */; };
+		26F605FF2A546FF7003F4DD0 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26F605FC2A546FF7003F4DD0 /* song1.mp3 */; };
+		26F606012A54701F003F4DD0 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26F606002A54701F003F4DD0 /* song3.mp3 */; };
+		26F606032A54715E003F4DD0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F606022A54715E003F4DD0 /* Song.swift */; };
+		26F606052A547623003F4DD0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F606042A547623003F4DD0 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		26F605EE2A546A63003F4DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F605F12A546A63003F4DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26F605F32A546A63003F4DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F605FA2A546FF7003F4DD0 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		26F605FC2A546FF7003F4DD0 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		26F606002A54701F003F4DD0 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		26F606022A54715E003F4DD0 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		26F606042A547623003F4DD0 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		26F605E42A546A62003F4DD0 /* MuzikDinle */ = {
 			isa = PBXGroup;
 			children = (
+				26F605FC2A546FF7003F4DD0 /* song1.mp3 */,
+				26F605FA2A546FF7003F4DD0 /* song2.mp3 */,
+				26F606002A54701F003F4DD0 /* song3.mp3 */,
 				26F605E52A546A62003F4DD0 /* AppDelegate.swift */,
 				26F605E72A546A62003F4DD0 /* SceneDelegate.swift */,
 				26F605E92A546A62003F4DD0 /* ViewController.swift */,
+				26F606042A547623003F4DD0 /* PlayerViewController.swift */,
+				26F606022A54715E003F4DD0 /* Song.swift */,
 				26F605EB2A546A62003F4DD0 /* Main.storyboard */,
 				26F605EE2A546A63003F4DD0 /* Assets.xcassets */,
 				26F605F02A546A63003F4DD0 /* LaunchScreen.storyboard */,
@@ -125,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F605FD2A546FF7003F4DD0 /* song2.mp3 in Resources */,
+				26F606012A54701F003F4DD0 /* song3.mp3 in Resources */,
+				26F605FF2A546FF7003F4DD0 /* song1.mp3 in Resources */,
 				26F605F22A546A63003F4DD0 /* LaunchScreen.storyboard in Resources */,
 				26F605EF2A546A63003F4DD0 /* Assets.xcassets in Resources */,
 				26F605ED2A546A62003F4DD0 /* Main.storyboard in Resources */,
@@ -138,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F606032A54715E003F4DD0 /* Song.swift in Sources */,
 				26F605EA2A546A62003F4DD0 /* ViewController.swift in Sources */,
 				26F605E62A546A62003F4DD0 /* AppDelegate.swift in Sources */,
 				26F605E82A546A62003F4DD0 /* SceneDelegate.swift in Sources */,
+				26F606052A547623003F4DD0 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
