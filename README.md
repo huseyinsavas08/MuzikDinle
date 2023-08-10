@@ -1,6 +1,6 @@
 # MuzikDinle
 
-Müzik listeni dinle, sesini kıs, atla ve durdur.
+Müzik dinle, sesini kıs, atla ve durdur.
 
 - AVFoundation
 - AVAudioPlayer
